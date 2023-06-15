@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.dongpl.controller.BaseSceneController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="594.0" prefWidth="878.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dongpl.controller.BaseSceneController">
+<JFXButton fx:id="userAddButton" buttonType="RAISED" layoutX="472.0" layoutY="53.0" onAction="#insert" ripplerFill="#e85b5b" style="-fx-background-color: orange; -fx-background-radius: 10;" text="添加用户">
+    <font>
+        <Font size="19.0" />
+    </font>
+</JFXButton>
 </AnchorPane>

@@ -1,6 +1,6 @@
 package com.dongpl;
 
-import com.dongpl.config.FXMain;
+import com.dongpl.main.FXMain;
 import com.dongpl.views.BaseSceneView;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
